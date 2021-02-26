@@ -31,18 +31,18 @@ Provide link from your Progress Journal page.
 
 - [x] [Assignment: Electricity Market Prices](Week_03_Assignment_Electricity_Market_Prices.html) <small>Deadline: 12/11/2020</small>
 
-## Week #4 <small>18/11/2020</small>
+### Week #4 <small>18/11/2020</small>
 
 - [x] [In-Class Excersize](https://uguraskar.shinyapps.io/Week_04_In_Class_Excersize/)
 
-## Week #5 <small>02/12/2020</small>
+### Week #5 <small>02/12/2020</small>
 
 - [ ] [In-Class Exersize](Week_05_In_Class_Excersize.html)
 
-## Week #6 <small>16/12/2020</small>
+### Week #6 <small>16/12/2020</small>
 
 - [x] [Assignment 3.2: Spam Data](Week_06_Assignment_Spam_Data.html) <small>Deadline: 24/12/2020 23:59</small>
 
-## Final Exam
+### Final Exam
 
 - [x] [Final Exam](Final.html)
