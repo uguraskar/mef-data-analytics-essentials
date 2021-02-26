@@ -1,0 +1,65 @@
+---
+title: "Assignment 1: RMarkdown Homework"
+author: "Uğur Aşkar"
+date: "07 10 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### About Myself
+
+I graduated from Beykent University Software Engineering Department in 2017 also I completed my double major programme on Electronics and Communication Engineering in 2019. I am currently doing Business Administration/Management in Anadolu University.
+
+I am currently working at Cigna Finans ve Hayat A.Ş. Insurance Company as Business Intelligence and Data Analyst.
+My job description is creating Data Warehouse data flows and creating reports/dashboards based on business requirements.
+I am interested in Big Data and I plan to become Big Data Developer/Data Engineer.
+
+[Here is my LinkedIn profile](https://linkedin.com/in/uguraskar/)
+
+### [useR! 2020: PostgreSQL As A Data Science Database (P. Gasana), regular](https://youtu.be/69tVWeibs_U)
+
+Before I talk about video and go into detail I must say I have interest in PostgreSQL because I had some information about it beforehand. From what I know before watching the video is; PostgreSQL is completely free and opensource database and It has a relatively good speed compared to average and has cheaper support options compared to other systems, but It has some speed issues, less security options compared to Oracle.
+
+In the first part of video presenter talks about data science challenges, transforming data to end-user format, analyzing the needs, documentation and more.
+
+We can see PostgreSQL is very flexible and can adapt to very different use cases, you can connect to PostgreSQL in different ways like ODBC, JDBC or RPostgre SQL API. It can gather data directly from CSV files which as far as I know is not possible from Oracle without additional tools such as TOAD or Data Integration tools like BODS. It is possible to comment table or column level. Parameters are available.
+
+For myself most importantly Common Term Expressions(also known as CTE's)are possible aswell with PostgreSQL. After watching the video I looked up if it's possible to use analytic functions(also known as Window Functions in MsSQL) is possible in PostgreSQL aswell.
+
+### [Using R to Detect Outliers and Anomalies in Clinical Trial Data (Steven Schwager)](https://www.youtube.com/watch?v=vDXjVtuyrJA)
+
+This video tells us outliers and anomalies in data often makes clinical trials slow down or even make trials fail. 
+
+As a result they are theorizing what should we use to find those outliers including which principles we should follow like Data Wrangling, DevOps and parallelizing our processes.
+
+They aim to cluster patients, sites, studies, variables and compare data quality scores, this will generate higher data quality, reduced monitoring effort(also less maintanence) and early identification of outlier datas that could compromise trial's success.
+
+Presenter explains variable pairs and how huge it can be to manually checking them so automating it is a must. Visualizing these datasets also helps us to detect outliers aswell. Identical data is susceptible as much as outliers, if we find continious identical data maybe we should check our data source. Some data sources can be fabricated and we shouldn't completely trust our sources. 
+
+### [Build Your Own Universe: Scale High-quality Research Data Provisioning with R Packages](https://www.youtube.com/watch?v=lm0QYr1C2Sw)
+In this video presenter starts with growth of data in an organization. 
+At the start hospitals needed dashboards, they requested data for research, needed to know how the data got there or know where to pull that specific data from and they needed someone for these each specific task. 
+
+Teams specialized in each of these tasks:
+
+* Dashboards > Business Intelligence
+
+* Getting data > Collaborative Data Services
+
+* Knowing how the data got there > Data Quality
+
+* Where to pull that specific data > Data Engineering
+
+In the second part of the video they talk about how SQL queries hard to read or document so they created easier to read(and use) library, and library automatically load some packages they commonly use, their connections and simplifies syntax for their needs. This not just makes it less repetitive or simpler. It also makes it easier to read and understand in human language and makes it less prone to errors.
+
+Since this package is in R, you can also get the advantages of R such as writing documentation in your analysis, use github to ask questions or version control your code.
+
+### [Spark on demand with AZTK](https://www.youtube.com/watch?v=zKcL9Y83YgE)
+Since I'm interested in Big Data and Spark is one of the most common tools used in Big Data, I found this video really interesting.
+
+Presenter talks about Azure Distributed Data Engineering Toolkit (AZTK) and It uses AZTK to manage spark clusters and makes it easier to use. It can use users already existing docker images so it is easier to move onto AZTK and It uses docker containers to run spark clusters.
+
+Even tough video is published at 2018 technology relatively new to me, it might be because insurance companies focuses on security and being robust more important than fast/easy to use systems.
